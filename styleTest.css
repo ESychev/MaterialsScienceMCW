@@ -1,0 +1,49 @@
+p, span, input, td {
+    font-size:24px;
+   }
+   button{
+       font-size:18px;
+   }
+   #ot {
+       color:blue;
+   }
+
+
+   body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 1;
+    color: #212529;
+    text-align: left;
+    background-color: #f3eeeb;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(3, 3, 3);
+    font-size: larger;
+    padding-right: 2rem;
+    padding-left: .9rem;
+}
+h3,h2,h1 {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+
+}
+card{  width: 100%; /* Ширина */
+    height: 100%; /* Высота блока */
+       background: #fc0; /* Цвет фона */
+       padding: 20px; /* Поля */
+       -moz-box-sizing: border-box; /* Для Firefox */
+       -webkit-box-sizing: border-box; /* Для Safari и Chrome */
+       box-sizing: border-box; /* Для IE и Opera */}
+     
+       .table td, .table th {
+        padding: .09rem;
+        padding-top: 0.09rem;
+        padding-right: 0.09rem;
+        padding-bottom: 0.09rem;
+        padding-left: 0.09rem;
+        vertical-align: top;
+        border-top: 1px solid #dee2e6;
+    }

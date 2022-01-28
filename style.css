@@ -1,0 +1,552 @@
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    font-size: larger;
+    padding-right: 2.2rem;
+    padding-left: .9rem;
+}
+
+.nav-item {
+    color: rgb(255, 255, 255);
+}
+
+.text-decoration {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.site-header {
+    padding: 1em 2em 12em;
+}
+
+summary {
+    font-weight: bold;
+    color: darkred;
+}
+
+.container-fluid {
+    background-color: #bec6e2;
+}
+
+p,
+li,
+td,
+tr {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18.5px;
+    text-indent: 30px;
+    /* Отступ первой строки в пикселах */
+    text-align: justify;
+    margin-bottom: 0px;
+    line-height: 1.5;
+}
+
+a,
+summary {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18.5px;
+}
+
+h5 {
+    font-family: "Times New Roman", Times, serif;
+}
+
+h3,
+h1 {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+h2 {
+    margin-top: 20px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: left;
+    font-weight: bold;
+    font-size: 18.5px;
+    text-indent: 30px;
+    /* Отступ первой строки в пикселах */
+}
+
+pre {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18.5px;
+    text-indent: 30px;
+    overflow: none;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+    overflow-y: hidden;
+    display: inline;
+}
+
+strong,
+b {
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 200;
+    line-height: 1;
+    color: #212529;
+    text-align: left;
+    background-color: #f3eeeb;
+}
+
+.a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.pictureFlex {
+    display: flex;
+    max-width: 100%;
+    height: auto
+}
+
+.frame {
+    display: inline-block;
+    width: 50%
+}
+
+.img-content {
+    max-width: 100%;
+    max-height: max-content;
+}
+
+
+/* img {
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    /* дополнительно их выровняем по центру */
+
+
+/* margin-left: auto;
+  margin-right: auto;
+  /* и добавим внешний нижний отступ */
+
+
+/* margin-bottom: 15px;
+    } */
+
+.cyrilic {
+    list-style-type: none;
+    /* Прячем исходную нумерацию */
+}
+
+.cyrilic li::before {
+    margin-right: 20px;
+    /* Расстояние от буквы до текста */
+    width: 1em;
+    /* Ширина */
+    text-align: right;
+    /* Выравнивание по правому краю */
+    display: inline-block;
+    /* Строчно-блочный элемент */
+}
+
+.cyrilic li:nth-child(1)::before {
+    content: 'а)';
+}
+
+.cyrilic li:nth-child(2)::before {
+    content: 'б)';
+}
+
+.cyrilic li:nth-child(3)::before {
+    content: 'в)';
+}
+
+.cyrilic li:nth-child(4)::before {
+    content: 'г)';
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 1px;
+    list-style: none;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    background-color: darkred;
+    width: 50px;
+    height: 50px;
+}
+
+.thumb-wrap {
+    position: relative;
+    padding-bottom: 56.25%;
+    /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
+    height: 0;
+    overflow: hidden;
+}
+
+.thumb-wrap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-width: 0;
+    outline-width: 0;
+}
+
+.nav-item {
+    width: 100%;
+    height: 80px;
+    /* padding-top: 20px; */
+    /* margin: 5px; */
+    border: 10px solid rgb(6, 3, 173);
+    text-align: center;
+}
+
+.photo__slider {
+    max-width: 640px;
+    margin: 0 auto;
+    filter: drop-shadow(0px 2px 24px rgba(0, 0, 0, 0.3));
+}
+
+.slick-arrow {
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #ECB84C;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+}
+
+.slick-prev {
+    left: -20px;
+}
+
+.slick-next {
+    right: -20px;
+}
+
+.prepod {
+    font-weight: 700!important;
+}
+
+.list-group-item {
+    background-color: #ced4e7;
+}
+
+.list-group-item-dark {
+    color: rgb(7 61 141);
+    background-color: #c6c8ca;
+    font-weight: 700;
+}
+
+
+/* Для небольших устройств (смартфоны) */
+
+.img-logo {
+    max-width: 100%;
+    display: inline-block;
+}
+
+.main__name {
+    color: rgb(7, 61, 141);
+    font-size: 40px;
+    text-align: center;
+    font-weight: 800;
+    /* text-shadow: 3px 1px 1px; */
+}
+
+.main-photo {
+    width: auto;
+    max-height: 530px;
+}
+
+:root {
+    --backgroundColor: rgb(57, 202, 212);
+    --colorShadeA: rgb(23, 81, 207);
+    --colorShadeB: rgb(69, 143, 212);
+    --colorShadeC: rgb(62, 93, 196);
+    --colorShadeD: rgb(70, 165, 248);
+    --colorShadeE: rgb(17, 102, 182);
+}
+
+a.nav-item {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: var(--colorShadeA);
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: inherit;
+}
+
+a.nav-item {
+    padding: 1em 2em;
+    border: 2px solid var(--colorShadeA);
+    border-radius: 1em;
+    background: var(--colorShadeE);
+    transform-style: preserve-3d;
+    transition: all 175ms cubic-bezier(0, 0, 1, 1);
+}
+
+a.nav-item::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--colorShadeC);
+    border-radius: inherit;
+    box-shadow: 0 0 0 2px var(--colorShadeB), 0 0.75em 0 0 var(--colorShadeA);
+    transform: translate3d(0, 0.75em, -1em);
+    transition: all 175ms cubic-bezier(0, 0, 1, 1);
+}
+
+a.nav-item:hover {
+    background: var(--colorShadeD);
+    transform: translate(0, 0.375em);
+}
+
+a.nav-item:hover::before {
+    transform: translate3d(0, 0.75em, -1em);
+}
+
+a.nav-item:active {
+    transform: translate(0em, 0.75em);
+}
+
+a.nav-item:active::before {
+    transform: translate3d(0, 0, -1em);
+    box-shadow: 0 0 0 2px var(--colorShadeB), 0 0.25em 0 0 var(--colorShadeB);
+}
+
+.list-mediateka {
+    font-weight: bold;
+    color: darkred;
+}
+
+
+/* Для больших устройств (ноуты, пк) */
+
+@media (min-width: 950px) {
+    .img-logo {
+        max-width: 80%;
+    }
+}
+
+
+/* Для больших устройств (ноуты, пк) */
+
+@media (min-width: 760px) {
+    .img-logo {
+        max-width: 60%;
+    }
+}
+
+
+/* Для средних устройств (планшеты) */
+
+@media (min-width: 420px) {
+    .img-logo {
+        width: 200px;
+        height: 90px;
+        /* max-width: 48%; */
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .site-header {
+        padding: 1em 2em 12em;
+    }
+}
+
+
+/* @media (min-width: 992px) and (max-width: 999px) {
+    .img-logo {
+        width: 300px;
+        height: 100px;
+        max-width: 200%;
+        padding-right: 120px;
+    }
+    .nav-item {
+        width: 50%;
+        height: 70px;
+        padding-top: 20px;
+        margin: 5px;
+        border: 7px solid rgb(6, 3, 173);
+    }
+} */
+
+
+/* Для больших устройств (ноуты, пк) */
+
+
+/* @media (max-width: 1001px) {
+    .img-logo {
+        max-width: 100%;
+    }
+    .nav-item {
+        width: 75%;
+        height: 60px;
+        padding-top: 20px;
+        margin: 2px;
+        border: 2px solid rgb(6, 3, 173);
+    }
+} */
+
+@media (min-width: 992px) and (max-width: 1049px) {
+    .img-logo {
+        /* width: 300px;
+        height: 100px; */
+        max-width: 200%;
+        padding-right: 80px;
+    }
+    .nav-item {
+        width: 59%;
+        height: 70px;
+        /* padding-top: 20px; */
+        margin: 7px;
+        border: 7px solid rgb(6, 3, 173);
+        font-size: 16px!important;
+    }
+    /* .nav-item:not(:last-child) {
+        margin-right: 10px;
+    } */
+    .main-photo {
+        width: auto;
+        max-height: 600px;
+        margin-right: 0;
+    }
+    body {
+        overflow-x: hidden;
+        /* width: calc(100% + 20px);
+        padding: 8px; */
+    }
+}
+
+@media (min-width: 1050px) and (max-width: 1099px) {
+    .img-logo {
+        /* width: 300px;
+        height: 100px; */
+        max-width: 200%;
+        padding-right: 80px;
+    }
+    .nav-item {
+        width: 60%;
+        height: 70px;
+        /* padding-top: 20px; */
+        margin: 5px;
+        border: 7px solid rgb(6, 3, 173);
+        font-size: 13px;
+        padding-left: 9px;
+        font-size: 16px!important;
+    }
+    body {
+        overflow-x: hidden;
+        /* width: calc(100% + 20px);
+        padding: 8px; */
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 1150px) {
+    .img-logo {
+        max-width: 200%;
+        padding-right: 100px;
+    }
+    .nav-item {
+        width: 60%;
+        height: 60px;
+        /* padding-top: 20px; */
+        margin: 5px;
+        border: 4px solid rgb(6, 3, 173);
+        padding-left: 9px;
+    }
+    body {
+        overflow-x: hidden;
+        /* width: calc(100% + 20px);
+        padding: 8px; */
+    }
+}
+
+@media (min-width: 1151px) and (max-width: 1300px) {
+    .img-logo {
+        width: 400px;
+        height: 100px;
+        max-width: 200%;
+        padding-right: 100px;
+    }
+    .nav-item {
+        width: 70%;
+        height: 70px;
+        /* padding-top: 20px; */
+        margin: 5px;
+        border: 7px solid rgb(6, 3, 173);
+        padding-left: 2px;
+    }
+    body {
+        overflow-x: hidden;
+        /* width: calc(100% + 20px);
+        padding: 8px; */
+    }
+}
+
+@media (min-width: 1320px) and (max-width: 1500px) {
+    .img-logo {
+        width: 400px;
+        height: 100px;
+        max-width: 150%;
+        padding-right: 100px;
+    }
+    .nav-item {
+        width: 70%;
+        height: 70px;
+        /* padding-top: 20px; */
+        margin: 5px;
+        border: 7px solid rgb(6, 3, 173);
+        padding-left: 10px;
+    }
+    body {
+        overflow-x: hidden;
+        /* width: calc(100% + 20px);
+        padding: 8px; */
+    }
+}
+
+@media (min-width: 1510px) and (max-width: 1800px) {
+    .img-logo {
+        width: 400px;
+        height: 100px;
+        max-width: 150%;
+        padding-right: 100px;
+    }
+    .nav-item {
+        width: 70%;
+        height: 70px;
+        /* padding-top: 20px; */
+        margin: 5px;
+        border: 7px solid rgb(6, 3, 173);
+        padding-left: 20px;
+    }
+    body {
+        overflow-x: hidden;
+        /* width: calc(100% + 20px);
+        padding: 8px; */
+    }
+}

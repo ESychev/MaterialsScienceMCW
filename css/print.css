@@ -1,0 +1,54 @@
+@media print {
+	html, body{
+		height: 297mm;
+		width: 210mm;
+    }
+    @page {
+        margin: 20mm 20mm 20mm 20mm;
+    }
+
+    *, *:before, *:after { 
+		color: #000;
+		box-shadow: none;
+		text-shadow: none;
+    }
+    html, body {
+		font-size: 14px;
+	}
+	h1 {
+		font-size: 24px;
+	}
+	h2 {
+		font-size: 20px;
+	}
+	h3 {
+		font-size: 18px;
+    }
+    .header, .footer, .banner {
+		display: none;
+    }
+    .header { 
+		background-color: #eee;
+		color: #000;
+		-webkit-print-color-adjust: exact;
+		color-adjust: exact;
+    }
+    ul, ol, table {
+		page-break-inside: avoid;
+    }
+    
+    
+    .action-print{
+		display: none;
+		}
+		.btn {
+			display: none;
+			}
+			body:after {
+				content:url('http://chart.googleapis.com/chart?cht=qr&chs=200x200&choe=UTF-8&chld=H&chl=URL_СТРАНИЦЫ');
+				display: inline-block;
+				width: 200px;
+				height: 200px;
+			}
+}
+

@@ -1,0 +1,50 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+
+body {
+    /*  background-color: rgba(255, 209, 23, 1);*/
+    font-weight: bold;
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    padding-left: 20px;
+}
+
+input {
+    font-weight: bold;
+}
+
+div {
+    padding-left: 20px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+.centerPosition {
+    width: 100px;
+}
+
+.c {
+    border: 1px solid #333;
+    /* Рамка */
+    display: inline-block;
+    padding: 5px 15px;
+    /* Поля */
+    text-decoration: none;
+    /* Убираем подчёркивание */
+    color: #000;
+    /* Цвет текста */
+}
+
+.c:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    /* Тень */
+    background: linear-gradient(to bottom, #fcfff4, #e9e9ce);
+    /* Градиент */
+    color: #a00;
+}
